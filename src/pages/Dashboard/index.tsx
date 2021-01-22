@@ -68,7 +68,7 @@ const Dashboard: React.FC = () => {
           name_like: searchValue,
         },
       });
-      let returnedFoods = data.map(
+      const returnedFoods = data.map(
         (food: Food): Food => {
           return {
             ...food,
